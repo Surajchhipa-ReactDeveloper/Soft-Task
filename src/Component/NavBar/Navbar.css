@@ -1,0 +1,135 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.4rem 1rem;
+  height: auto;
+}
+.navbar_left_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Main_Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  object-fit: contain;
+  object-position: center;
+}
+.navbar_Right_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navigation_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.1rem;
+}
+li a {
+  color: #5540af;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.2rem 1rem;
+}
+li a:hover {
+  border-bottom: 3px solid rgb(246, 210, 8);
+  /* transition: all ease-in-out; */
+}
+.Menu_button_container {
+  display: none ;
+}
+
+@media only screen and (max-width: 1050px) {
+  .Navigation_links {
+    gap: 1.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navbar_Right_item {
+    /* display: none; */
+  }
+  .Navbar {
+    justify-content: space-between;
+  }
+  /* } */
+
+  /* @media only screen and (max-width: 768px) { */
+  .Menu_button_container {
+    display: block;
+    height: 10rem;
+    width: 9rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 82%; */
+  }
+  .Open_Bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .Hamburger_Menu {
+    object-fit: cover;
+    object-position: center;
+    width: 8rem;
+    /* color: #e41c26; */
+    /* fill: #e41c26; */
+    cursor: pointer;
+    /* border: 2px solid red; */
+  }
+  .close_Menu {
+    fill: #e41c26;
+    color: #e41c26;
+  }
+  .navbar_Right_item {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .NavBar_links {
+    display: none !important;
+  }
+  .navbar_Right_item_top,
+  .NavBar_links,
+  .search-icon-container,
+  .Hamburger_Navbar_white {
+    display: none;
+  }
+  /* ************** navbar link Start************ */
+  .Mobile_Navbar {
+    display: flex;
+    position: fixed;
+    top: 12rem;
+    right: 10rem;
+    left: 0rem;
+    width: 100%;
+    height: 100vh;
+    background-color: #5440afd1;
+    z-index: 40;
+    transition: all 2s ease-in-out;
+  }
+  .Navigation_links {
+    flex-direction: column;
+    gap: 7rem;
+    width: 100%;
+    height: 100svh;
+    /* transition: all 15s ease-in-out; */
+  }
+  .Navigation_links li a {
+    color: white;
+    font-size: 3rem;
+    line-height: 1.9rem;
+    cursor: pointer;
+    font-family: "futura_Book_Regular";
+  }
+  .Navigation_links li a:hover {
+    color: rgba(255, 255, 255, 0.885);
+    font-weight: bold;
+  }
+}

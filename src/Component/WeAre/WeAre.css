@@ -1,0 +1,164 @@
+.WeAre_Container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  justify-content: center;
+  background-color: #f4f3f8;
+  padding: 15rem 9rem;
+  margin-top: 5rem;
+  gap: 4rem;
+}
+.WeAre_Left_Container {
+  width: 55%;
+}
+.WeAre_Left_Container_Bottom_Text {
+  font-family: "Roboto-Regular";
+  color: rgba(0, 0, 0, 0.378);
+  margin-top: 2.5rem;
+  line-height: 3rem;
+  font-size: 2.4rem;
+}
+.WeAre_Left_Container_Center_Text {
+  margin-top: 2.5rem;
+}
+.WeAre_Right_Container {
+  width: 35%;
+}
+.WeARE_Right_Container_Item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.Type_Percentage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+.Type {
+  color: #000000;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-family: "Raleway-Medium";
+}
+.Percentage {
+  color: #5040af;
+  font-size: 4rem;
+  font-family: "Roboto-Bold";
+}
+.Process_Bar {
+  width: 90%;
+  border-radius: 3rem;
+  /* border: 2px solid red; */
+  height: 1.8rem;
+  background-color: rgb(244, 226, 226);
+  /* width: ; */
+}
+.Bar_Color1 {
+  border-radius: 3rem;
+  border: 0.89rem solid #5040af;
+  background-color: #3316d6;
+  width: 85%;
+}
+.Bar_Color2 {
+  border-radius: 3rem;
+  border: 0.89rem solid #5040af;
+  background-color: #3316d6;
+  width: 70%;
+}
+.Bar_Color3 {
+  border-radius: 3rem;
+  border: 0.89rem solid #5040af;
+  background-color: #3316d6;
+  width: 98%;
+}
+.Bar_Color4 {
+  border-radius: 3rem;
+  border: 0.89rem solid #5040af;
+  background-color: #3316d6;
+  width: 91%;
+}
+.WeAre_Bottom_Left {
+  color: rgba(0, 0, 0, 0.499);
+  font-size: 2.5rem;
+}
+.Media_Logo,
+.LessThen {
+  width: 4.1rem;
+}
+.WeAre_Bottom_Center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+}
+.WeAre_Bottom_Container {
+  display: flex;
+  gap: 1rem;
+}
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1200px) {
+  .WeAre_Container {
+    padding: 15rem 5rem;
+  }
+  .Process_Bar,
+  .Type_Percentage {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .WeAre_Container {
+    padding: 15rem 4rem;
+    gap: 3rem;
+  }
+  .Process_Bar,
+  .Type_Percentage {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .WeAre_Container {
+    padding: 15rem 4rem;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Process_Bar,
+  .Type_Percentage {
+    width: 90%;
+  }
+  .WeAre_Bottom_Container {
+    flex-direction: column;
+  }
+  .WeAre_Left_Container {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .WeAre_Bottom_Center {
+    display: none;
+  }
+  .WeAre_Right_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .Process_Bar,
+  .Type_Percentage {
+    width: 100%;
+  }
+  .WeAre_Bottom_Left {
+    font-size: 2.4rem;
+  }
+  .Media_Logo {
+    width: 5rem;
+  }
+}

@@ -1,0 +1,31 @@
+.Service_Main_Container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* margin: 4rem 0rem; */
+  margin-top: 10rem;
+  padding: 2rem 2.5rem;
+}
+.Service_Main_Sub_Heading{
+    margin-top: 1rem;
+}
+.Service_Type_Container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 7rem;
+}
+.Service_Type_Main {
+  /* width: 25vw; */
+  /* padding: 3rem; */
+}
+
+@media only screen and (max-width: 900px) {
+  .company_Service_Main_Container {
+    width: 40vw;
+    height: 40vh;
+  }
+}

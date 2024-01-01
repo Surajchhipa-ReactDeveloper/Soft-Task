@@ -1,7 +1,24 @@
-.Heading_Main_Container_Secondary {
-  font-family: Raleway, sans-serif;
-  font-size: 3.75rem;
+.Heading_Main_Container_Primary {
+  font-family: "Raleway-SemiBold";
+  font-size: 8.5rem;
+  line-height: 9.5rem;
   text-transform: uppercase;
-  font-weight: 600;
+  /* font-weight: 800; */
+  color: #5040af;
 }
-
+.Heading_Main_Container_Secondary {
+  font-family: "Raleway-Medium";
+  /* font-family: "Raleway-SemiBold"; */
+  font-size: 4.1rem;
+  line-height: 5rem;
+  color: #000000;
+}
+@media only screen and (max-width: 900px) {
+  .Heading_Main_Container_Primary {
+    font-size: 7.5rem;
+    line-height: 8rem;
+  }
+  .Heading_Main_Container_Secondary {
+    font-size: 3.8rem;
+  }
+}

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Raleway:wght@600&family=Roboto:wght@100;700&display=swap");
+
+.company_Service_Main_Container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 48vh;
+  width: 27vw;
+  text-align: center;
+  gap: 3rem;
+  padding: 6rem;
+  border-radius: 0.8rem;
+  box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgba(0, 0, 0, 0.044);
+}
+.work_Icon {
+  width: 18rem;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 3rem;
+}
+.Work_Name {
+  font-size: 2.8rem;
+  line-height: 3rem;
+  color: #5040af;
+  font-family: "Roboto-Bold";
+}
+.Work_About {
+  font-size: 2.11rem;
+  line-height: 3.2rem;
+  font-family: Open Sans, sans-serif;
+  word-spacing: 0.1rem;
+}
+.company_Service_Main_Container:hover {
+  background-color: #5040af;
+}
+.Work_Name_Hover {
+  color: yellow;
+}
+.Work_About_Hover {
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1100px) {
+  .company_Service_Main_Container {
+    width: 40vw;
+    height: 45vh;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .company_Service_Main_Container {
+    width: 40vw;
+    height: 40vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .company_Service_Main_Container {
+    width: 80vw;
+    height: 33vh;
+  }
+}

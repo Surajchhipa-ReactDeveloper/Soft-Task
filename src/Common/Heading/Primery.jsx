@@ -1,9 +1,9 @@
 import React from "react";
 import "./Heading.css";
-const Primary = ({ Heading }) => {
+const Primary = ({ Heading1 }) => {
   return (
     <>
-      <div className="Heading_Main_Container_Primary">{Heading}</div>
+      <div className="Heading_Main_Container_Primary">{Heading1}</div>
     </>
   );
 };

@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Raleway:wght@600&family=Roboto:wght@100;700&display=swap");
+
+.Experience_Main_Container {
+  margin: 10rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Experience_Left_Container {
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 19rem;
+}
+.Experience_Right_Container {
+  width: 35vw;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid #929293; */
+}
+.Experience_Mid_Container {
+  width: 0vw;
+  border: 2px solid #929293;
+}
+.Experience_Item_Container {
+  display: flex;
+  gap: 4rem;
+  margin-top: 7rem;
+}
+
+.Experience_Company_Name_And_Line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+  /* height: 7rem; */
+  padding: 0rem 5rem;
+}
+.Experience_Logo {
+  width: 18rem;
+}
+.Experience_Line {
+  border: 1.7px solid #92929375;
+  width: 20rem;
+  height: 0rem;
+}
+.Circle_Container {
+  position: absolute;
+  left: -5.6rem;
+  border: 3px solid #929293;
+  background-color: white;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+}
+.ArrowColorFull_Logo {
+  width: 2.1rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Experience_Right_Container_item1 {
+  display: flex;
+  gap: 2.5rem;
+  position: relative;
+  width: 60rem;
+}
+.Experience_About_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.1rem;
+}
+.Experience_Date_Container {
+  font-family: Open Sans, sans-serif;
+  font-size: 2.2rem;
+  color: #929293;
+}
+.Experience_Job_Name {
+  color: #5040af;
+  font-size: 2.7rem;
+  /* font-family: "Raleway-SemiBold"; */
+  font-family: "Raleway-ExtraBold";
+}
+.Experience_Job_About {
+  font-family: Open Sans, sans-serif;
+  font-size: 2.34rem;
+  line-height: 3.5rem;
+  text-align: left;
+  color: #040404ba;
+}
+
+@media only screen and (max-width: 1300px) {
+  .Experience_Left_Container {
+    width: 55rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Experience_Left_Container {
+    width: 50rem;
+  }
+  .Experience_Right_Container {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Experience_Left_Container {
+    width: 45rem;
+    gap: 19rem;
+  }
+  .Experience_Company_Name_And_Line {
+    gap: 5rem;
+  }
+  .Experience_Line {
+    width: 25rem;
+  }
+  .Experience_Right_Container_item1 {
+    width: 55rem;
+  }
+  .Experience_Right_Container {
+    width: 45vw;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Experience_Left_Container {
+    width: 45rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* .Experience_Line,
+  .Experience_Mid_Container,
+  .Circle_Container,
+  .Experience_Arrow_Container {
+    display: none;
+  } */
+  .Second_Experience_Item_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .Experience_Company_Name_And_Line {
+    justify-content: center;
+  }
+  .Experience_About_Container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Experience_Job_About,
+  .Experience_Job_Name {
+    text-align: center;
+  }
+  .Experience_Item {
+    width: 100%;
+  }
+  .Experience_Right_Container_item1 {
+    width: 60rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+    .Experience_Right_Container_item1 {
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+    .Experience_Right_Container_item1 {
+    width: 45rem;
+  }
+}

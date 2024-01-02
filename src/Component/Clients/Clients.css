@@ -1,2 +1,33 @@
-EXPERIENCE
-Experience
+.Clients_Main_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14rem 5rem;
+  margin-top: 15rem;
+  background-color: #f4f3f8;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.Clients_Company_NAme_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  gap: 7rem;
+}
+.Client_Logo {
+  width: 12%;
+  object-fit: contain;
+  object-position: center;
+}
+@media only screen and (max-width: 900px) {
+  .Clients_Company_NAme_Container {
+    flex-wrap: wrap;
+    
+  }
+  .Client_Logo {
+    width: 20rem;
+  }
+}

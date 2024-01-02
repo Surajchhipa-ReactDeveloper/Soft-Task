@@ -12,6 +12,7 @@
   padding: 6rem;
   border-radius: 0.8rem;
   box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgba(0, 0, 0, 0.044);
+  cursor: pointer;
 }
 .work_Icon {
   width: 18rem;
@@ -57,5 +58,11 @@
   .company_Service_Main_Container {
     width: 80vw;
     height: 33vh;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .company_Service_Main_Container {
+    width: 80vw;
+    height: 39vh;
   }
 }

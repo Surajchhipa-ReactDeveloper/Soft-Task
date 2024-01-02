@@ -35,4 +35,5 @@ export const Icon = {
   InstaGram_Logo: require("../assets/Icon/instagram.svg").default,
   Facebook_Logo: require("../assets/Icon/facebook.svg").default,
   linkedin_Logo: require("../assets/Icon/linkedin.svg").default,
+  ArrowColorFull_Logo: require("../assets/Icon/ArrowColorFull.png"),
 };

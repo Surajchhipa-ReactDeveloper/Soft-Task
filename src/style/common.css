@@ -26,3 +26,11 @@
   color: #5040af;
   font-weight: 500;
 }
+.Common_All_Main_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 4rem;
+}

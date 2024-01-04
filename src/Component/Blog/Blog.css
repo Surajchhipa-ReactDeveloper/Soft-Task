@@ -1,0 +1,10 @@
+.Blog_Item_Container {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+@media only screen and (max-width: 1150px) {
+  .Blog_Item_Container {
+    flex-direction: column;
+  }
+}

@@ -6,6 +6,8 @@ import Service from "./Component/Service/Service";
 import Portfolio from "./Component/Portfolio/Portfolio";
 import Clients from "./Component/Clients/Clients";
 import ExperienceFile from "./Component/Experience/ExperienceFile";
+import Award from "./Component/Award/Award";
+import Blog from "./Component/Blog/Blog";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Portfolio />
       <Clients />
       <ExperienceFile />
+      <Award />
+      <Blog />
     </>
   );
 };

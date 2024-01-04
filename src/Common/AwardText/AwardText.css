@@ -1,0 +1,96 @@
+.Award_Text_Main_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid green; */
+  gap: 2rem;
+}
+.Award_About_Img_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AwardImg {
+  width: 13rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Award_Number_And_Status_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 22.5rem;
+}
+.Award_Number {
+  color: #5040af;
+  font-family: "Roboto-Bold";
+  font-size: 4.5rem;
+}
+.Award_Status {
+  font-size: 2.7rem;
+  line-height: 3.5rem;
+  font-family: "Raleway-Medium";
+}
+@media only screen and (max-width: 1200px) {
+  .Award_Text_Main_Container {
+    width: 28rem;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .Award_Text_Main_Container {
+    width: 48rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Award_Text_Main_Container {
+    width: 40rem;
+  }
+}
+/* @media only screen and (max-width: 700px) {
+  .Award_Text_Main_Container {
+    flex-direction: column;
+  }
+  .Award_Number_And_Status_Container {
+    text-align: center;
+  }
+  .Award_Text_Main_Container {
+    width: 25rem;
+  }
+  .AwardImg {
+    width: 11rem;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  .Award_Text_Main_Container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 685px) {
+  .Award_Text_Main_Container {
+    width: 37rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .Award_Text_Main_Container {
+    width: 29rem;
+  }
+  .AwardImg {
+    width: 11rem;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .Award_Text_Main_Container {
+    width: 27rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .Award_Text_Main_Container {
+    width: 25.5rem;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .Award_Text_Main_Container {
+    width: 21.5rem;
+  }
+}

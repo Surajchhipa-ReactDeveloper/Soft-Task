@@ -1,0 +1,89 @@
+.Award_Main_Container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20rem;
+}
+.Award_Item_Container {
+  /* border: 2px solid rgb(40, 40, 40); */
+  top: 4rem;
+  width: 85%;
+  display: flex;
+  padding: 12rem 10rem;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+}
+.Award_Background_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.BackGround_IMG_Award {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+@media only screen and (max-width: 1250px) {
+  .Award_Item_Container {
+    padding: 11rem 5rem;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .Award_Item_Container {
+    padding: 4rem 4rem;
+    top: -4rem;
+    gap: 3rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Award_Item_Container {
+    padding: 4rem 3rem;
+    top: -7rem;
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .Award_Item_Container {
+    padding: 4rem 3rem;
+    top: -7rem;
+    gap: 2rem;
+  }
+  .Award_Background_Container {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Award_Background_Container {
+    margin-top: 5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Award_Background_Container {
+    margin-top: 30rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Award_Background_Container {
+    margin-top: 30rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Award_Item_Container {
+    gap: 1.5rem;
+    padding: 3rem 2rem;
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .Award_Background_Container {
+    margin-top: 32rem;
+  }
+}

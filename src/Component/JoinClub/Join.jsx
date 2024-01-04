@@ -5,7 +5,7 @@ const Join = () => {
   return (
     <>
       <div className="Join_Main_Container">
-        <div className="Liner_Container "></div>
+        {/* <div className="Liner_Container "></div> */}
         <div className="Join_Main_Text">
           KEEP <span className="Bold">UP-TO-DATE</span> <br />WITH WHAT I'M UP TO
         </div>

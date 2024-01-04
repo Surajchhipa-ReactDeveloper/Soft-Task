@@ -1,10 +1,16 @@
+.Blog_Main_Container {
+  background-color: #f4f3f8;
+  padding: 10rem 0rem;
+}
 .Blog_Item_Container {
   display: flex;
   gap: 4rem;
-  align-items: center;
+  align-items: baseline;
 }
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 950px) {
   .Blog_Item_Container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

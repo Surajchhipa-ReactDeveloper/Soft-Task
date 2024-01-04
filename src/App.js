@@ -8,6 +8,8 @@ import Clients from "./Component/Clients/Clients";
 import ExperienceFile from "./Component/Experience/ExperienceFile";
 import Award from "./Component/Award/Award";
 import Blog from "./Component/Blog/Blog";
+import Form from "./Component/Form/Form";
+import Join from "./Component/JoinClub/Join";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
       <ExperienceFile />
       <Award />
       <Blog />
+      <Form />
+      <Join />
     </>
   );
 };

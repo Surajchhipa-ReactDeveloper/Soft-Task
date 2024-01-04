@@ -81,16 +81,22 @@
 }
 @media only screen and (max-width: 440px) {
   .Award_Text_Main_Container {
-    width: 27rem;
+    width: 26rem;
+  }
+  .AwardImg {
+    width: 10rem;
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 390px) {
   .Award_Text_Main_Container {
-    width: 25.5rem;
+    width: 24rem;
   }
 }
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 375px) {
   .Award_Text_Main_Container {
-    width: 21.5rem;
+    width: 21rem;
+  }
+  .AwardImg {
+    width: 9rem;
   }
 }

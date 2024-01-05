@@ -10,6 +10,7 @@ import Award from "./Component/Award/Award";
 import Blog from "./Component/Blog/Blog";
 import Form from "./Component/Form/Form";
 import Join from "./Component/JoinClub/Join";
+import Footer from "./Component/Footer/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Blog />
       <Form />
       <Join />
+      <Footer />
     </>
   );
 };

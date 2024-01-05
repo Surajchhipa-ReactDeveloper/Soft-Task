@@ -1,0 +1,27 @@
+.Footer_Main_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5040af;
+  padding: 3rem 4rem;
+}
+.Footer_Left_Container {
+  color: white;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+.Footer_Right_Container {
+  display: flex;
+  gap: 1.4rem;
+}
+.Media_Logo2 {
+  object-fit: contain;
+  width: 4.5rem;
+}
+@media only screen and (max-width: 550px) {
+  .Footer_Main_Container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

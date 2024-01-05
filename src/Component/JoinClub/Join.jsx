@@ -1,5 +1,6 @@
 import React from "react";
 import "./Join.css";
+import Try from "../../Try/Try";
 
 const Join = () => {
   return (
@@ -7,15 +8,17 @@ const Join = () => {
       <div className="Join_Main_Container">
         <div className="Liner_Container "></div>
         <div className="Join_Main_Text">
-          KEEP <span className="Bold">UP-TO-DATE</span> <br />WITH WHAT I'M UP TO
+          KEEP <span className="Bold">UP-TO-DATE</span> <br />
+          WITH WHAT I'M UP TO
         </div>
         <div className="Club_Link_Button_Container">
           <div className="Club_Input_Container">
-            <input
+            {/* <input
               className="User_Email"
               type="text"
               placeholder="Give me your Email"
-            />
+            /> */}
+            <Try Value={"Give me your Email"} />
           </div>
           <div className="Join_Button ">Join the club</div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { Images } from "../../Utility/imagePath";
@@ -9,6 +9,15 @@ const Navbar = () => {
   const HandleClose = () => {
     setOpenNavbar(true);
   };
+
+  useEffect(() => {
+    if (!openNavbar) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "visible";
+    }
+  }, [openNavbar]);
+
   return (
     <>
       <div className="Navbar">

@@ -11,6 +11,7 @@ import Blog from "./Component/Blog/Blog";
 import Form from "./Component/Form/Form";
 import Join from "./Component/JoinClub/Join";
 import Footer from "./Component/Footer/Footer";
+import Try from "./Try/Try";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <Form />
       <Join />
       <Footer />
+      {/* <Try /> */}
     </>
   );
 };

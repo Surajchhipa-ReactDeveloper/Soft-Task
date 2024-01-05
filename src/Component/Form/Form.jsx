@@ -4,6 +4,7 @@ import Secondary from "../../Common/Heading/Secondery";
 import Primary from "../../Common/Heading/Primery";
 import { Icon } from "../../Utility/IconPath";
 import { Images } from "../../Utility/imagePath";
+import Try from "../../Try/Try";
 const Form = () => {
   const [active, setActive] = useState();
   const adjustTextareaHeight = (e) => {
@@ -31,19 +32,11 @@ const Form = () => {
         </div>
         <div className="From_Input_Container">
           <div className="Contact_Input">
-            <div className={`Name_Input Input_Container `}>
-              <input
-                className="Name_User Input"
-                type="text"
-                placeholder="Name"
-              />
+            <div className="Name_Input Input_Container">
+              <Try Value={"Name"} />
             </div>
-            <div
-              className={`Email_Input Input_Container ${
-                active ? "Active" : ""
-              }`}
-            >
-              <input className="Email Input" type="email" placeholder="Email" />
+            <div className="Email_Input Input_Container ">
+              <Try Value={"Email"} />
             </div>
           </div>
           <div className="Massage_Input">

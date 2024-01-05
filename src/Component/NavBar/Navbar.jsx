@@ -19,43 +19,43 @@ const Navbar = () => {
           <div className={openNavbar ? "NavBar_links" : "Mobile_Navbar"}>
             <ul className="Navigation_links">
               <li>
-                <Link to="home" spy={true} onClick={HandleClose}>
+                <Link to="about" spy={true} onClick={HandleClose}>
                   ABOUT
                 </Link>
               </li>
 
               <li>
-                <Link to="about" spy={true} onClick={HandleClose}>
+                <Link to="service" spy={true} onClick={HandleClose}>
                   SERVICE
                 </Link>
               </li>
               <li>
-                <Link to="shop" spy={true} onClick={HandleClose}>
+                <Link to="portfolio" spy={true} onClick={HandleClose}>
                   PORTFOLIO
                 </Link>
               </li>
               <li>
-                <Link to="Contact" spy={true} onClick={HandleClose}>
+                <Link to="clients" spy={true} onClick={HandleClose}>
                   CLIENTS
                 </Link>
               </li>
               <li>
-                <Link to="faq" spy={true} onClick={HandleClose}>
+                <Link to="work" spy={true} onClick={HandleClose}>
                   WORK
                 </Link>
               </li>
               <li>
-                <Link to="faq" spy={true} onClick={HandleClose}>
+                <Link to="statistics" spy={true} onClick={HandleClose}>
                   STATISTICS
                 </Link>
               </li>
               <li>
-                <Link to="faq" spy={true} onClick={HandleClose}>
+                <Link to="blog" spy={true} onClick={HandleClose}>
                   BLOG
                 </Link>
               </li>
               <li>
-                <Link to="faq" spy={true} onClick={HandleClose}>
+                <Link to="contact" spy={true} onClick={HandleClose}>
                   CONTACT
                 </Link>
               </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
           <div className="Menu_button_container">
             <div
-              className="Open_Bar"
+              className={`Open_Bar ${openNavbar ? "CloseBar" : ""}`}
               onClick={() => {
                 setOpenNavbar(!openNavbar);
               }}

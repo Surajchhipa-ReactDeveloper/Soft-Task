@@ -7,7 +7,10 @@ import { Images } from "../../Utility/imagePath";
 const Portfolio = () => {
   return (
     <>
-      <div className="Portfolio_Main_Container Common_All_Main_Container">
+      <div
+        className="Portfolio_Main_Container Common_All_Main_Container"
+        id="portfolio"
+      >
         <div className="Portfolio_Main_Heading">
           <Primary Heading1={"CHECK OUT OUR PORTFOLIO"} />
         </div>

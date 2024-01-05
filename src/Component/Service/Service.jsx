@@ -8,7 +8,7 @@ import Bar from "../../Common/Skillbar/Bar";
 const Service = () => {
   return (
     <>
-      <div className="Service_Main_Container">
+      <div className="Service_Main_Container" id="work">
         <div className="Service_Main_Heading">
           <Primary Heading1={"HERE'S WHAT WE ARE GOOD AT"} />
         </div>

@@ -28,7 +28,7 @@ export const Icon = {
   Stripe_Logo: require("../assets/Icon/logo-stripe.svg").default,
   Logo_Logo: require("../assets/Icon/logo.svg").default,
   OpenMenu_Logo: require("../assets/Icon/OpenMenu.svg").default,
-  CloseMenu_Logo: require("../assets/Icon/CloseMenu.svg").default,
+  CloseMenu_Logo: require("../assets/Icon/close.svg").default,
   LessThen_Logo: require("../assets/Icon/LessThen.svg").default,
   Social_Logo: require("../assets/Icon/social.svg").default,
   SocialWhite_Logo: require("../assets/Icon/social-White.svg").default,

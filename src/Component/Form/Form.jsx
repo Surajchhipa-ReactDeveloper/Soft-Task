@@ -13,7 +13,10 @@ const Form = () => {
 
   return (
     <>
-      <div className="Form_Main_Container Common_All_Main_Container">
+      <div
+        className="Form_Main_Container Common_All_Main_Container"
+        id="contact"
+      >
         <div className="Form_Main_Heading">
           <Primary Heading1={"HERE'S A CONTACT FORM"} />
         </div>

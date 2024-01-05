@@ -29,7 +29,7 @@ const WeAre = () => {
 
   return (
     <>
-      <div className="WeAre_Container">
+      <div className="WeAre_Container" id="about">
         <div className="WeAre_Left_Container">
           <h1 className="WeAre_Left_Container_Top_Heading">
             <Primary Heading1={"WHO WE ARE?"} />

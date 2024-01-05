@@ -8,7 +8,7 @@ import { Images } from "../../Utility/imagePath";
 const Blog = () => {
   return (
     <>
-      <div className="Blog_Main_Container Common_All_Main_Container">
+      <div className="Blog_Main_Container Common_All_Main_Container" id="blog">
         <div className="Blog_Main_Heading">
           <Primary Heading1={"OUR BLOGS"} />
         </div>

@@ -6,7 +6,7 @@ import { Icon } from "../../Utility/IconPath";
 const Clients = () => {
   return (
     <>
-      <div className="Clients_Main_Container">
+      <div className="Clients_Main_Container" id="clients">
         <div className="Clients_Main_Heading">
           <Primary Heading1={"OUR LATEST CLIENTS"} />
         </div>

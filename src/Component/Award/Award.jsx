@@ -6,9 +6,13 @@ import { Images } from "../../Utility/imagePath";
 
 const Award = () => {
   return (
-    <div className="Award_Main_Container">
+    <div className="Award_Main_Container" id="statistics">
       <div className="Award_Background_Container ">
-        <img src={Images.BackGround_IMG} alt="" className="BackGround_IMG_Award" />
+        <img
+          src={Images.BackGround_IMG}
+          alt=""
+          className="BackGround_IMG_Award"
+        />
       </div>
       <div className="Award_Item_Container">
         <AwardText

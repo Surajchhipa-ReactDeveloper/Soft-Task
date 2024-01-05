@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .Navigation_links {
   display: flex;
@@ -41,7 +42,7 @@ li a:hover {
   /* transition: all ease-in-out; */
 }
 .Menu_button_container {
-  display: none ;
+  display: none;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -56,7 +57,6 @@ li a:hover {
   .Navbar {
     justify-content: space-between;
   }
-  /* } */
 
   /* @media only screen and (max-width: 768px) { */
   .Menu_button_container {
@@ -73,6 +73,8 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+    /* border: 2px solid red; */
   }
   .Hamburger_Menu {
     object-fit: cover;
@@ -83,9 +85,12 @@ li a:hover {
     cursor: pointer;
     /* border: 2px solid red; */
   }
-  .close_Menu {
+  .CloseBar {
     fill: #e41c26;
     color: #e41c26;
+    position: absolute;
+    z-index: 20;
+    top: 1rem;
   }
   .navbar_Right_item {
     background-color: #ffffff;
@@ -105,13 +110,12 @@ li a:hover {
   .Mobile_Navbar {
     display: flex;
     position: fixed;
-    top: 12rem;
-    right: 10rem;
+    top: 0rem;
     left: 0rem;
     width: 100%;
     height: 100vh;
-    background-color: #5440afd1;
-    z-index: 40;
+    background-color: #5040af;
+    z-index: 15;
     transition: all 2s ease-in-out;
   }
   .Navigation_links {

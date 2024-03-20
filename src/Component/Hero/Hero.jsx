@@ -38,12 +38,12 @@ const Hero = () => {
             Building digital products & brands.
           </div>
           <div className="Hero_Right_Bottom_Container">
-            <div className="Hero_Right_Bottom_Left">LET'S CONNECT</div>
+            {/* <div className="Hero_Right_Bottom_Left">LET'S CONNECT</div> */}
             <div className="Hero_Right_Bottom_Center">
-              <img src={Icon.LessThen_Logo} alt="" className="LessThen" />
+              {/* <img src={Icon.LessThen_Logo} alt="" className="LessThen" /> */}
             </div>
             <div className="Hero_Right_Bottom_Right">
-              <img
+              {/* <img
                 src={isActive ? Icon.FacebookYellow_Logo : Icon.Facebook_Logo}
                 alt=""
                 className="Media_Logo"
@@ -80,7 +80,7 @@ const Hero = () => {
                 className="Media_Logo"
                 onMouseEnter={toggleHover5}
                 onMouseLeave={toggleHover5}
-              />
+              /> */}
             </div>
           </div>
         </div>

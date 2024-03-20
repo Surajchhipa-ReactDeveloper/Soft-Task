@@ -87,7 +87,23 @@ const Form = () => {
         </div>
       </div>
       <div className="Map_Container">
-        <img src={Images.Map_IMG} alt="" className="Map_IMG" />
+        {/* <img src={Images.Map_IMG} alt="" className="Map_IMG" />
+         */}
+        <div className="mapouter">
+          <div className="gmap_canvas">
+            <iframe
+              className="gmap_iframe"
+              width="100%"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Titiwangsa Sentral condominium&amp;t=&amp;z=20&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+            <a href="https://strandsgame.net/">Strands NYT</a>
+          </div>
+        </div>
+       
       </div>
     </>
   );

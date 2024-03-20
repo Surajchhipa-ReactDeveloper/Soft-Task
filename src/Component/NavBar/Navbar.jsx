@@ -35,7 +35,7 @@ const Navbar = () => {
 
               <li>
                 <Link to="service" spy={true} onClick={HandleClose}>
-                  SERVICE
+                  SERVICES
                 </Link>
               </li>
               <li>

@@ -5,27 +5,27 @@ import Secondary from "../../Common/Heading/Secondery";
 import { Icon } from "../../Utility/IconPath";
 
 const WeAre = () => {
-    const [isActive, setIsActive] = useState(false);
-    const [isActive2, setIsActive2] = useState(false);
-    const [isActive3, setIsActive3] = useState(false);
-    const [isActive4, setIsActive4] = useState(false);
-    const [isActive5, setIsActive5] = useState(false);
+  const [isActive, setIsActive] = useState(false);
+  const [isActive2, setIsActive2] = useState(false);
+  const [isActive3, setIsActive3] = useState(false);
+  const [isActive4, setIsActive4] = useState(false);
+  const [isActive5, setIsActive5] = useState(false);
 
-    const toggleHover = () => {
-      setIsActive(!isActive);
-    };
-    const toggleHover2 = () => {
-      setIsActive2(!isActive2);
-    };
-    const toggleHover3 = () => {
-      setIsActive3(!isActive3);
-    };
-    const toggleHover4 = () => {
-      setIsActive4(!isActive4);
-    };
-    const toggleHover5 = () => {
-      setIsActive5(!isActive5);
-    };
+  const toggleHover = () => {
+    setIsActive(!isActive);
+  };
+  const toggleHover2 = () => {
+    setIsActive2(!isActive2);
+  };
+  const toggleHover3 = () => {
+    setIsActive3(!isActive3);
+  };
+  const toggleHover4 = () => {
+    setIsActive4(!isActive4);
+  };
+  const toggleHover5 = () => {
+    setIsActive5(!isActive5);
+  };
 
   return (
     <>
@@ -45,18 +45,18 @@ const WeAre = () => {
             consultation for your projects to make them distinct from others.
           </p>
           <div className="WeAre_Bottom_Container Common_Img_Text_Container">
-            <div className="WeAre_Bottom_Left Common_Text_Img">
+            {/* <div className="WeAre_Bottom_Left Common_Text_Img">
               CONNECT WITH ME
-            </div>
+            </div> */}
             <div className="WeAre_Bottom_Center Common_LessThen_Container">
-              <img
+              {/* <img
                 src={Icon.LessThen_Logo}
                 alt=""
                 className="LessThen Common_Logo_Media"
-              />
+              /> */}
             </div>
             <div className="WeAre_Bottom_Right Common_Main_Img_Container">
-              <img
+              {/* <img
                 src={isActive ? Icon.FacebookYellow_Logo : Icon.Facebook_Logo}
                 alt=""
                 className="Media_Logo Common_Logo_Media"
@@ -93,7 +93,7 @@ const WeAre = () => {
                 className="Media_Logo Common_Logo_Media"
                 onMouseEnter={toggleHover5}
                 onMouseLeave={toggleHover5}
-              />
+              /> */}
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ const Service = () => {
             <Bar
               WImg={Icon.EmailBlack_Logo}
               WImg2={Icon.EmailWhite}
-              WName={"EMAIL DEVELOPMENT"}
+              WName={"REPORT DEVELOPMENT"}
               WAbout={
                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
               }

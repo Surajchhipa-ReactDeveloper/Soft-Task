@@ -28,7 +28,7 @@
 .Contact_Input {
   display: flex;
   gap: 4rem;
-  width: 68%;
+  width: 100%;
 }
 .Input {
   outline: none;
@@ -83,7 +83,7 @@
 }
 .Massage_Input {
   /* width: 124rem; */
-  width: 68%;
+  width: 100%;
   position: relative;
 }
 .Query {
@@ -111,6 +111,7 @@ input::placeholder:focus {
   border-radius: 0.6rem;
   position: absolute;
   bottom: -10rem;
+  color: white;
 }
 
 .Submit_Text {
@@ -158,6 +159,10 @@ input::placeholder:focus {
   width: 3rem;
   object-fit: contain;
 }
+form {
+  width: 60%;
+}
+
 .Contact_Number {
   color: #5040af;
   font-family: Open Sans, sans-serif;
@@ -206,6 +211,9 @@ input::placeholder:focus {
   .Phone_Container {
     width: 80%;
   }
+  form {
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 850px) {
   .Form_About_Text {
@@ -224,5 +232,31 @@ input::placeholder:focus {
   }
   .Map_IMG {
     height: 40vh;
+  }
+  form {
+    width: 80%;
+  }
+  .mapouter {
+    height: 55svh;
+  }
+  .gmap_canvas {
+    height: 55svh;
+  }
+  .gmap_iframe {
+    height: 55svh !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  form {
+    width: 90%;
+  }
+  .mapouter {
+    height: 48svh;
+  }
+  .gmap_canvas {
+    height: 48svh;
+  }
+  .gmap_iframe {
+    height: 48svh !important;
   }
 }

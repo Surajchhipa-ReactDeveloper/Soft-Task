@@ -5,27 +5,27 @@ import Secondary from "../../Common/Heading/Secondery";
 import { Icon } from "../../Utility/IconPath";
 
 const WeAre = () => {
-  const [isActive, setIsActive] = useState(false);
-  const [isActive2, setIsActive2] = useState(false);
-  const [isActive3, setIsActive3] = useState(false);
-  const [isActive4, setIsActive4] = useState(false);
-  const [isActive5, setIsActive5] = useState(false);
+  // const [isActive, setIsActive] = useState(false);
+  // const [isActive2, setIsActive2] = useState(false);
+  // const [isActive3, setIsActive3] = useState(false);
+  // const [isActive4, setIsActive4] = useState(false);
+  // const [isActive5, setIsActive5] = useState(false);
 
-  const toggleHover = () => {
-    setIsActive(!isActive);
-  };
-  const toggleHover2 = () => {
-    setIsActive2(!isActive2);
-  };
-  const toggleHover3 = () => {
-    setIsActive3(!isActive3);
-  };
-  const toggleHover4 = () => {
-    setIsActive4(!isActive4);
-  };
-  const toggleHover5 = () => {
-    setIsActive5(!isActive5);
-  };
+  // const toggleHover = () => {
+  //   setIsActive(!isActive);
+  // };
+  // const toggleHover2 = () => {
+  //   setIsActive2(!isActive2);
+  // };
+  // const toggleHover3 = () => {
+  //   setIsActive3(!isActive3);
+  // };
+  // const toggleHover4 = () => {
+  //   setIsActive4(!isActive4);
+  // };
+  // const toggleHover5 = () => {
+  //   setIsActive5(!isActive5);
+  // };
 
   return (
     <>

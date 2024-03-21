@@ -20,13 +20,13 @@ const App = () => {
       <Hero />
       <WeAre />
       <Service />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Clients />
-      <ExperienceFile />
-      <Award />
-      <Blog />
+      {/* <ExperienceFile /> */}
+      {/* <Award /> */}
+      {/* <Blog /> */}
       <Form />
-      <Join />
+      {/* <Join />   */}
       <Footer />
       {/* <Try /> */}
     </>

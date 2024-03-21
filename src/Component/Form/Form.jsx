@@ -3,13 +3,22 @@ import "./Form.css";
 import Secondary from "../../Common/Heading/Secondery";
 import Primary from "../../Common/Heading/Primery";
 import { Icon } from "../../Utility/IconPath";
-import { Images } from "../../Utility/imagePath";
-import Try from "../../Try/Try";
+import { useForm, ValidationError } from "@formspree/react";
+import Input from "../../Try/Try";
+
 const Form = () => {
-  const [active, setActive] = useState();
+  const [state, handleSubmit] = useForm("xoqgnprl");
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
   const adjustTextareaHeight = (e) => {
     e.target.style.height = "auto";
     e.target.style.height = `${e.target.scrollHeight}px`;
+  };
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    await handleSubmit(e);
   };
 
   return (
@@ -30,36 +39,77 @@ const Form = () => {
           fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
           accumsan.
         </div>
-        <div className="From_Input_Container">
-          <div className="Contact_Input">
-            <div className="Name_Input Input_Container">
-              <Try Value={"Name"} />
+        <form
+          method="POST"
+          onSubmit={handleFormSubmit}
+        >
+          <div className="From_Input_Container">
+            <div className="Contact_Input">
+              <div className="Name_Input Input_Container">
+                <Input
+                  Type="Name"
+                  required
+                  value={name}
+                  name="name"
+                  onchange={(e) => {
+                    setName(e.target.value);
+                  }}
+                />
+                <ValidationError
+                  prefix="Name"
+                  field="name"
+                  errors={state.errors}
+                />
+              </div>
+              <div className="Email_Input Input_Container ">
+                <Input
+                  Type="Email"
+                  required
+                  value={email}
+                  name="email"
+                  onchange={(e) => {
+                    setEmail(e.target.value);
+                  }}
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
+              </div>
             </div>
-            <div className="Email_Input Input_Container ">
-              <Try Value={"Email"} />
-            </div>
-          </div>
-          <div className="Massage_Input">
-            <textarea
-              className="Query Input"
-              name=""
-              id=""
-              cols="30"
-              rows="7"
-              placeholder="Massage..."
-              required
-              onKeyUp={adjustTextareaHeight}
-            ></textarea>
-            <div className="Submit_Button">
-              <h3 className="Submit_Text">Send</h3>
-              <img
-                src={Icon.NextArrow_Logo}
-                alt=""
-                className="NextArrow_Logo"
+            <div className="Massage_Input">
+              <textarea
+                className="Query Input"
+                name="message"
+                id="message"
+                cols="30"
+                rows="7"
+                placeholder="Message..."
+                required
+                value={message}
+                autoComplete=""
+                onKeyUp={adjustTextareaHeight}
+                onChange={(e) => {
+                  setMessage(e.target.value);
+                }}
               />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
+              <button type="submit" className="Submit_Button">
+                Send
+                <img
+                  src={Icon.NextArrow_Logo} 
+                  alt=""
+                  className="NextArrow_Logo"
+                />
+              </button>
             </div>
           </div>
-        </div>
+        </form>
         <div className="Contact_Container">
           <div className="Phone_Container">
             <div className="Logo_Number_Container">
@@ -103,7 +153,6 @@ const Form = () => {
             <a href="https://strandsgame.net/">Strands NYT</a>
           </div>
         </div>
-       
       </div>
     </>
   );

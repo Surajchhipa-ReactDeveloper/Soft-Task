@@ -34,13 +34,13 @@ const Navbar = () => {
               </li>
 
               <li>
-                <Link to="service" spy={true} onClick={HandleClose}>
+                <Link to="work" spy={true} onClick={HandleClose}>
                   SERVICES
                 </Link>
               </li>
               <li>
                 <Link to="portfolio" spy={true} onClick={HandleClose}>
-                  PORTFOLIO
+                  PRODUCTS
                 </Link>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
                   WORK
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="statistics" spy={true} onClick={HandleClose}>
                   STATISTICS
                 </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <Link to="blog" spy={true} onClick={HandleClose}>
                   BLOG
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="contact" spy={true} onClick={HandleClose}>
                   CONTACT
